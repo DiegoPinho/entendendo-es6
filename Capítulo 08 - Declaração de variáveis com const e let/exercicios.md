@@ -1,6 +1,7 @@
 # Exercícios
 
-1 - Considere o trecho de código abaixo e responda as questões:
+## Exercício 1
+Considere o trecho de código abaixo e responda as questões:
 
 ``` javascript
 var arrayFuncoes = [];

@@ -1,6 +1,7 @@
 # Exercícios
 
-1 - Utilizando Templates Literais Marcadas, crie uma tag que transforma uma String que representa uma lista de compras (divididas por vírgula) em um elemento de lista HTML (&lt;ul&gt; com &lt;li&gt;).
+## Exercício 1
+Utilizando Templates Literais Marcadas, crie uma tag que transforma uma String que representa uma lista de compras (divididas por vírgula) em um elemento de lista HTML (&lt;ul&gt; com &lt;li&gt;).
 
 Por exemplo:
 ``` javascript
