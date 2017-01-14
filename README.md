@@ -8,7 +8,7 @@ Repositório oficial do livro: Entendendo o ECMAScript 6
 
 <img src="cover.jpg" alt="Capa do livro" title="Capa do livro" height="500px" />
 
-Seja muito bem-vindo a uma nova era do JavaScript! O ECMAScript 6 é a maior evolução da linguagem desde a sua criação há 20 anos atrás! Ela agora está muito mais dinâmica, clara e gostosa de se trabalhar. Neste repositório, você encontrará todos os recursos disponíveis para acompanhar a leitura do livro "Entendendo o ECMAScript 6: Entre de cabeça no futuro do JavaScript".
+Seja muito bem-vindo a uma nova era do JavaScript! O ECMAScript 6 é a maior evolução da linguagem desde a sua criação há 20 anos! Ela agora está muito mais dinâmica, clara e gostosa de se trabalhar. Neste repositório, você encontrará todos os recursos disponíveis para acompanhar a leitura do livro "Entendendo o ECMAScript 6: Entre de cabeça no futuro do JavaScript".
 
 Como estudar
 ------
