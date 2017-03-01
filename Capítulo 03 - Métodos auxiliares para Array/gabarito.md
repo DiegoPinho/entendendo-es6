@@ -50,17 +50,17 @@ function validaParenteses(parenteses) {
 
 ## Exercício 5 - Sem duplicações
 ``` javascript
-function unique(array) {
-  return array.reduce(function(previous, value) {
-     var foundDuplicate = previous.find(function(value2){
-         return value === value2;
+function removeDuplicatas(numeros) {
+  return numeros.reduce(function(anterior, valor) {
+     var achouDuplicata = anterior.find(function(valor2){
+         return valor === valor2;
      });
 
-     if(!foundDuplicate){
-        previous.push(value);
+     if(!achouDuplicata){
+        anterior.push(valor);
      }
 
-     return previous;
+     return anterior;
   }, []);
 }
 ```
@@ -70,6 +70,61 @@ function unique(array) {
 function aprovados(alunos, media) {
   return alunos.filter(function(aluno){
     return aluno.media >= media;
+  });
+}
+```
+
+## Exercício 7 - Dados precisos
+``` javascript
+function buscar(propriedade, valor, lista) {
+  return lista.find(function(item) {
+    return item[propriedade] === valor;
+  });
+}
+```
+
+## Exercício 8 - Calculadora Humana
+``` javascript
+function calculaAreaTotal(dimensoes) {
+  return dimensoes.reduce(function(anterior, valor) {
+    return anterior + (valor.altura * valor.comprimento);    
+  }, 0);
+}
+```
+
+## Exercício 9 - Raízes Quadradas
+``` javascript
+function calculaRaizesQuadradas(numeros) {
+  return numeros.map(function(numero) {
+    return Math.sqrt(numero);
+  });
+}
+```
+
+## Exercício 10 - E tem alguma diferença?
+Os dois métodos iteram toda a lista e tem a assinatura de método semelhante, no entanto, o `map` é capaz de nos devolver um array com valores que resultam da iteração de cada um dos valores do array original. Para cada item do array original, há um item no array resultante. O `forEach` não é capaz de fazer isso naturalmente. Logo, o `forEach` é útil quando o objetivo é somente iterar os itens de uma lista, como por exemplo, exibir todos os valores no console (`console.log`). Já o `map`, é mais apropriado para quando precisamos alterar os valores do array. Com ele, conseguimos alterar os valores sem danificar o array original.
+
+
+## Exercício 11 - A pequena ovelha Dolly
+``` javascript
+function clonaObjeto(alvo) {
+  var propriedades = Object.getOwnPropertyNames(alvo);
+  var copia = {};
+  propriedades.forEach(function(propriedade) {
+    copia[propriedade] = alvo[propriedade];
+  });
+
+  return copia;
+}
+```
+
+## Exercício 12 - Limpando o estoque
+``` javascript
+function existeProdutosDatados(produtos, data) {
+  var dataReferencia = new Date();
+  if(data) dataReferencia = new Date(data);
+  return produtos.some(function(produto) {
+    return new Date(produto.dataValidade) < dataReferencia;
   });
 }
 ```
