@@ -1,6 +1,6 @@
 # Exercícios
 
-Nestes exercícios iremos praticar a utilização de templates strings
+Nestes exercícios iremos praticar a utilização de templates strings.
 
 ## Exercício 1 - Lista de compras
 Utilizando Templates Literais Marcadas, crie uma tag que transforma uma String que representa uma lista de compras (divididas por vírgula) em um elemento de lista HTML (&lt;ul&gt; com &lt;li&gt;).
