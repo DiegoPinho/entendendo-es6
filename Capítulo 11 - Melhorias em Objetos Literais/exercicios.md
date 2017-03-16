@@ -34,3 +34,28 @@ var dimensoes = function(comprimento, alturaInicial) {
 
 console.log(dimensoes(10,10)); // { comprimento: 10, altura: 5.625 }
 ```
+
+## Exercício 3 - Oi, eu sou o Goku!
+Refatore o código a seguir para inserir o método `seApresentar` para dentro do objeto pessoa. Ela deve exibir o nome da pessoa.
+
+``` javascript
+const pessoa = {
+  nome: 'Goku',
+  equipe: 'Guerreiro Z'
+}
+
+function seApresentar(pessoa) {
+  console.log('Oi, eu sou o ' + pessoa.nome + '!');
+}
+
+seApresentar(pessoa); // Oi, eu sou o Goku!
+```
+
+## Exercício 4 - Criando à minha maneira
+Implemente o método `criaObjetoComCaracteristicas` quer recebe o seguinte parâmetro:
+- caracteristicas: Mapa que representa os atributos e valores do objeto (Ex: idade, 25)
+
+O método deve devolver um objeto literal que possua as características representadas no mapa. Para este exercício, não vamos considerar funções.
+
+## Exercício 5 - Esse tal de JSON
+Responda: O que é um JSON?
