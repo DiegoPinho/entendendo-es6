@@ -2,11 +2,11 @@
     <img src="logo.png" alt="Entendendo o ECMAScript 6" title="Entendendo o ECMAScript 6" align="right" height="60" />
 </a>
 
-Entendendo o ES6 6
+ECMAScript 6 - Entre de cabeça do futuro do JavaScript
 ======================
 Repositório oficial do livro: Entendendo o ECMAScript 6
 
-<img src="cover.jpg" alt="Capa do livro" title="Capa do livro" height="500px" />
+<img src="cover-hd.jpg" alt="Capa do livro" title="Capa do livro" height="500px" />
 
 Seja muito bem-vindo a uma nova era do JavaScript! O ECMAScript 6 é a maior evolução da linguagem desde a sua criação há 20 anos! Ela agora está muito mais dinâmica, clara e gostosa de se trabalhar. Neste repositório, você encontrará todos os recursos disponíveis para acompanhar a leitura do livro "Entendendo o ECMAScript 6: Entre de cabeça no futuro do JavaScript".
 
