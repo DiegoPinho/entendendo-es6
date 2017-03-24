@@ -4,11 +4,11 @@
 
 ECMAScript 6 - Entre de cabeça do futuro do JavaScript
 ======================
-Repositório oficial do livro: Entendendo o ECMAScript 6
+Repositório oficial do livro: ECMAScript 6 - Entre de cabeça do futuro do JavaScript
 
 <img src="cover-hd.jpg" alt="Capa do livro" title="Capa do livro" height="500px" />
 
-Seja muito bem-vindo a uma nova era do JavaScript! O ECMAScript 6 é a maior evolução da linguagem desde a sua criação há 20 anos! Ela agora está muito mais dinâmica, clara e gostosa de se trabalhar. Neste repositório, você encontrará todos os recursos disponíveis para acompanhar a leitura do livro "Entendendo o ECMAScript 6: Entre de cabeça no futuro do JavaScript".
+Seja muito bem-vindo a uma nova era do JavaScript! O ECMAScript 6 é a maior evolução da linguagem desde a sua criação há 20 anos! Ela agora está muito mais dinâmica, clara e gostosa de se trabalhar. Neste repositório, você encontrará todos os recursos disponíveis para acompanhar a leitura do livro "ECMAScript 6: Entre de cabeça no futuro do JavaScript".
 
 Como estudar
 ------
@@ -24,7 +24,7 @@ Obrigado!
 ------
 Tendo algum dúvida, crítica, sugestão ou até mesmo encontrar um erro, não hesite em entrar em contato! Também fique a vontade para fazer um fork neste projeto e fazer sugestões de exercícios.
 
-**Entendendo ES6** © 2017+, Diego Martins de Pinho. Publicado pela [Casa do Código](https://www.casadocodigo.com.br/).
+**ECMAScript 6 - Entre de cabeça no futuro do JavaScript** © 2017+, Diego Martins de Pinho. Publicado pela editora [Casa do Código](https://www.casadocodigo.com.br/). Todos os direitos reservados.
 
 > Site oficial [entendendoes6.com.br](http://entendendoes6.com.br) &nbsp;&middot;&nbsp;
 > Twitter [@entendendoes6](https://twitter.com/entendendoes6) &nbsp;&middot;&nbsp;
