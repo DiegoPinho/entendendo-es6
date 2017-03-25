@@ -20,3 +20,31 @@ const {nome:nick, email:login} = usuario;
 console.log(nick); // Toreto
 console.log(login); // velozesefuriososparasempre@gmail.com
 ```
+
+## Exercício 4 - Minha mãe mandou eu escolher esse daqui...
+``` javascript
+const [,reinalda] = contatos;
+console.log(reinalda); // {nome: 'Reinalda Silva', numero: '1234-6789'}
+```
+
+## Exercício 5 - Cara-Crachá
+``` javascript
+function isEngenheiro({titulo, departamento}) {
+  return titulo.indexOf("Engenheiro") > -1 && departamento === 'Engenharia';
+}
+```
+
+## Exercício 6 - Mas o que são estes dados!?
+``` javascript
+const corpoDocente = [
+  [ 'Gramática', '9:00', 'Sueli' ],
+  [ 'Matemática', '10:15', 'Amilton'],
+  [ 'Educação Física', '11:30', 'Bruno' ]
+];
+
+function mostraGradeProfessores(corpoDocente) {
+  return corpoDocente.forEach( ([materia, hora, nome]) => {
+    console.log(`Aula de ${materia} às ${hora} com professor(a) ${nome}`);
+  });
+}
+```

@@ -24,8 +24,65 @@ const usuario = {
 }
 ```
 
-## Exercício x -
-Converta do modelo 1 para o modelo 2 utilizando desestruturamento de objetos e arrays.
+## Exercício 4 - Minha mãe mandou eu escolher esse daqui...
+Considere a lista de contatos a seguir:
+``` javascript
+const contatos = [
+  {
+    nome: 'Mario Antonio',
+    numero: '1234-5678'
+  },
+  {
+    nome: 'Reinalda Silva',
+    numero: '1234-6789'
+  },
+  {
+    nome: 'Bárbara Lopes',
+    numero: '1234-5567'
+  }
+];
+```
+
+Utilizando a técnica de desestruturamento de arrays, obtenha somente os dados do segundo contato.
+
+## Exercício 5 - Cara-Crachá
+Otimize o trecho de código a seguir utilizando o desestruturamento.
+``` javascript
+const profissional = {
+  titulo: 'Engenheiro de Software',
+  departamento: 'Engenharia'
+};
+
+function isEngenheiro(profissional) {
+  const titulo = profissional.titulo;
+  const departamento = profissional.departamento;
+
+  return titulo.indexOf("Engenheiro") > -1 && departamento === 'Engenharia';
+}
+
+isEngenheiro(profissional); // true
+profissional.titulo = 'Marketing';
+isEngenheiro(profissional); // false
+```
+
+## Exercício 6 - Mas o que são estes dados!?
+O seu sistema escolar contém uma série de informações armazenadas em arrays no seguinte formato:
+
+``` javascript
+const corpoDocente = [
+  [ 'Gramática', '9:00', 'Sueli' ],
+  [ 'Matemática', '10:15', 'Amilton'],
+  [ 'Educação Física', '11:30', 'Bruno' ]
+];
+```
+
+Para o usuário final, é necessário que a informação seja apresentada de uma forma mais adequada, identificando o que significa cada um dos itens. Implemente o método `mostraGradeProfessores()` quer recebe um array de arrays no formato do objeto `corpoDocente` e devolve, para cada item, a seguinte mensagem no console:
+
+``` javascript
+"Aula de <matéria> às <hora> com professor(a) <nome>"
+```
+
+## Exercício x - Converta do modelo 1 para o modelo 2 utilizando desestruturamento de objetos e arrays.
 ``` javascript
 // modelo1
 const pontos = [
