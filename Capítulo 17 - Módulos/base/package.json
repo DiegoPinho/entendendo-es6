@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Estrutura básica para realizar os exercícios do capítulo de módulos.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Martins de Pinho <diego.martins@touchtec.com.br>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "webpack": "^2.3.3"
+  }
+}
