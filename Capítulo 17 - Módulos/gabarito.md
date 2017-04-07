@@ -33,7 +33,7 @@ console.log(nome); // ECMAscript 6
 console.log(chave); // chave
 ```
 
-## Exercício 3 -
+## Exercício 3 - Classe para todos
 - src/telefone.js
 
 ``` javascript
@@ -58,4 +58,37 @@ console.log(chave); // chave
 
 const tel = new Telefone('iphone', 971136132);
 console.log(`numero: ${tel.numero} | modelo: ${tel.modelo}`);
+```
+
+## Exercício 4 - Trocando os nomes
+- src/config.js
+
+``` javascript
+export const url = 'http://entendendoes6.com.br';
+```
+
+- index.js
+
+``` javascript
+import { url as link } from './src/config';
+
+console.log(link); // http://entendendoes6.com.br
+```
+
+## Exercício 5 - Exportação de funções
+
+- src/printer.js
+
+``` javascript
+export default function printNoConsole(mensagem) {
+  console.log(mensagem);
+}
+```
+
+- index.js
+
+``` javascript
+import printer from './src/printer';
+
+printer('Olá, esta é uma mensagem!');
 ```
