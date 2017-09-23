@@ -3,7 +3,7 @@
 Nestes exercícios vamos rever como funciona a metaprogramação através dos proxies.
 
 ## Exercício 1 - Praticamente um sósia
-Diga, em poucas palavras, o são Proxies e o que é possível fazer com eles.
+Diga, em poucas palavras, o que são Proxies e o que é possível fazer com eles.
 
 ## Exercício 2 - Meta o quê?
 Defina o que é metaprogramação e metaprogramas.
