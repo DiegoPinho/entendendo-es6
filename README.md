@@ -21,6 +21,13 @@ Após ler o capítulo no livro, acesse os exercícios do capítulo correspondent
 Bons códigos!
 
 Obrigado!
+
+Dados do livro
+------
+**Número de páginas:** 206 
+
+**ISBN:** 978-85-5519-258-6
+
 ------
 Tendo algum dúvida, crítica, sugestão ou até mesmo encontrar um erro, não hesite em entrar em contato! Também fique a vontade para fazer um fork neste projeto e fazer sugestões de exercícios.
 
